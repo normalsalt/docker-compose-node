@@ -1,0 +1,6 @@
+version: '3'
+services:
+  node:
+    container_name: docker-compose-node
+    build: .
+    image: docker-compose-node
